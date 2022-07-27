@@ -9,10 +9,16 @@ body {
     font-weight: 300;
     font-size: 1em;
     background-color: rgb(216, 191, 191);
+    height: 100vh;
 }
 
 /*--------------- HEADER ---------------*/
-header {
+
+nav {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+/* header {
     position: fixed;
     z-index: 40;
 }
@@ -20,25 +26,28 @@ header {
 header nav {
     background-color: rgba(0, 0, 0, 0.301);
     display: flex;
+
+} */
+
+/*  display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100vw;
     height: 100px;
-    padding: 40px;
-}
+    padding: 40px; */
 
-header nav ul {
+/* header nav ul {
     display: flex;
     list-style: none;
-}
+} */
 
 header nav .logo-mobile {
     display: none;
 }
 
-.navlink {
-    box-shadow: inset 0 0 0 0 #880c07;
-    color: #880c07;
+.nav-link {
+    box-shadow: inset 0 0 0 0 #880c07 !important;
+    color: #880c07 !important;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -51,7 +60,7 @@ header nav .logo-mobile {
     font-size: 16px;
 }
 
-.navlink:hover {
+.nav-link:hover {
     box-shadow: inset 100px 0 0 0 #880c07;
     color: white;
 }
@@ -307,20 +316,23 @@ header nav .logo-mobile {
     background-color: #2b2c2c9f;
 }
 
-/*--------------- FOOTER ---------------*/
-
-
-footer {
-    text-align: center;
-    margin: 2em 0 1em 0;
-    border-top: 1px rgba(0, 0, 0, 0.541);
-    font-weight: 400;
-}
-
 
 /*--------------- MEDIA QUERIES ---------------*/
 
-@media screen and (max-width: 1030px) {
+
+@media screen and (max-width: 576px) {
+    .logo {
+        display: none;
+    }
+
+
+    header nav .logo-mobile {
+        display: inline-flex;
+        height: 76px;
+    }
+}
+
+/* @media screen and (max-width: 1030px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -354,15 +366,15 @@ footer {
 @media screen and (max-width: 713px) {
     header nav {
         flex-direction: row;
-        /* height: auto; */
-        padding: 10px;
-        line-height: 5px;
-    }
+        /* height: auto; 
+padding: 10px;
+line-height: 5px;
+}
 
-    .hero h1 {
-        font-size: 40px;
-        line-height: 50px;
-    }
+.hero h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
 }
 
 @media screen and (max-width: 634px) {
@@ -450,3 +462,5 @@ footer {
         font-size: 12px;
     }
 }
+
+*/
