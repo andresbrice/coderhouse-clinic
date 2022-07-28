@@ -24,7 +24,7 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)), url(/assets/img/wallpaper.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.750), rgba(0, 0, 0, 0.750)), url(../assets/img/wallpaper.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,26 +35,29 @@
     align-items: center;
 }
 
+/* texto */
 .text-primary {
     color: #ad130d !important;
 }
 
-.btn-primary,
+/* boton */
+.btn-danger,
 .bg-primary {
     background-color: #880c07 !important;
 }
 
-.border-primary {
-    border-color: #880c07 !important;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open>.dropdown-toggle.btn-danger {
     color: #fff;
     background-color: #ad130d !important;
+}
+
+/* bordes */
+.border-primary {
+    border-color: #880c07 !important;
 }
 
 
@@ -63,4 +66,9 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+/* checkbox */
+.checkbox-danger:checked {
+    color: #ad130d !important;
 }
