@@ -72,3 +72,13 @@
 .checkbox-danger:checked {
     color: #ad130d !important;
 }
+
+/* width svg doctora */
+.w-doctora {
+    width: 20%;
+}
+
+/* resize textarea */
+.comment-box {
+    resize: none;
+}
