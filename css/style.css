@@ -35,6 +35,48 @@
     align-items: center;
 }
 
+/* titulo */
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+}
+
+@keyframes heading {
+    0% {
+        top: -100px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/* subtitulo */
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text {
+    0% {
+        left: -100px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
 /* texto */
 .text-primary {
     color: #ad130d !important;
