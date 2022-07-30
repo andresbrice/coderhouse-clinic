@@ -86,6 +86,16 @@
     }
 }
 
+/* imagenes hero */
+
+.hero-img {
+    display: none;
+    width: 25%;
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 /* texto */
 .text-primary {
@@ -133,4 +143,11 @@
 /* resize textarea */
 .comment-box {
     resize: none;
+}
+
+/* media queries */
+@media screen and (min-width: 576px) {
+    .hero-img {
+        display: block;
+    }
 }
