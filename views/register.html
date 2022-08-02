@@ -24,11 +24,11 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <!-- NAV -->
-        <nav class="navbar navbar-expand-md  bg-dark fixed-top z-99 navbar-dark py-3">
+        <nav class="navbar navbar-expand-md navbar-dark py-1">
             <div class="container">
-                <a href="../index.html" class="navbar-brand"><img src="../assets/img/logo.png" alt="logo"></a>
+                <a href="../index.html" class="navbar-brand"><img src="../assets/img/logo1.svg" alt="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span class="navbar-toggler-icon"></span>
@@ -57,60 +57,56 @@
     <!-- MAIN -->
     <main>
         <!-- HERO -->
-        <section class="hero bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <section class="bg-dark text-light text-center text-sm-start hero">
             <div class="container">
-                <div class="d-sm-flex h-100 align-items-center justify-content-between">
+                <div class="row">
+                    <div class="hero-container">
+                        <div class="hero-left">
+                            <h1 class="title text-primary display-4 lead">Register</h1>
+                            <h2 class="subtitle lead">
+                                Complete the form to register on our platform.
+                            </h2>
+                            <img class="hero-img" src="../assets/img/oximetro.svg" alt="oximetro">
+                        </div>
+                        <div class="hero-right">
+                            <form action="#" method="#">
+                                <div class="form-group mb-2">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label for="last-name" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="last-name"
+                                        placeholder="Enter last name">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <input type="checkbox" name="terms" id="terms"
+                                        class="form-check-input checkbox-danger">
+                                    <label for="terms" class="form-check-label ms-2">I accept terms and
+                                        conditions</label>
+                                </div>
 
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-danger border-primary">Register</button>
+                                </div>
 
-                    <div>
-                        <h1 class="title text-primary">Register</h1>
-                        <p class="lead subtitle">
-                            Complete the form to register on our platform.
-                        </p>
-                        <img class="img-fluid w-25 d-none d-sm-block" src="../assets/img/oximetro.svg" alt="oximetro">
+                                <div class="my-3">
+                                    <span>Remember that your password must have at
+                                        least 1
+                                        capital letter and 1
+                                        symbol</span>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-
-                    <div class="w-auto">
-                        <form action="#" method="#">
-                            <div class="form-group mb-2">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="name" class="form-control" id="name" placeholder="Enter your name">
-                            </div>
-                            <div class="form-group mb-2">
-                                <label for="last-name" class="form-label">Last Name</label>
-                                <input type="last-name" class="form-control" id="last-name"
-                                    placeholder="Enter your last name">
-                            </div>
-                            <div class="form-group mb-2">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                            </div>
-                            <div class="form-group mb-2">
-                                <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Password">
-                            </div>
-
-                            <div class="form-group mb-2">
-                                <input type="checkbox" name="remember" id="remember"
-                                    class="form-check-input checkbox-danger">
-                                <label for="remember" class="form-check-label ms-2">I accept terms and
-                                    conditions</label>
-                            </div>
-
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-danger border-primary">Register</button>
-                            </div>
-
-                            <div class="my-3">
-                                <span class="text-decoration-underline">Remember that your password must have at least 1
-                                    capital letter and 1
-                                    symbol</span>
-                            </div>
-
-                        </form>
-
-                    </div>
-
                 </div>
             </div>
         </section>
