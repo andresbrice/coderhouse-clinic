@@ -146,7 +146,7 @@
 
 /* login */
 
-.login form {
+.card-form form {
     max-width: 320px;
     width: 90%;
     margin: 0 auto;
@@ -157,7 +157,7 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.login form .form-control {
+.card-form form .form-control {
     /* background: #f7f9fc; */
     border: none;
     border-bottom: 1px solid #dfe7f1;
