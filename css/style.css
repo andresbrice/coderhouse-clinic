@@ -47,12 +47,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
     min-height: 100vh;
     max-height: auto;
     width: 100%;
-    /* padding-top: 5em !important; */
-    /* padding-bottom: 2em !important; */
     text-align: left;
 
     /* background */
@@ -115,7 +112,6 @@
 /* INDEX */
 /* specialist */
 
-
 .specialist {
     display: grid;
     gap: 4em;
@@ -144,7 +140,7 @@
     resize: none;
 }
 
-/* login */
+/* card de formularios */
 
 .card-form form {
     max-width: 320px;
@@ -158,7 +154,6 @@
 }
 
 .card-form form .form-control {
-    /* background: #f7f9fc; */
     border: none;
     border-bottom: 1px solid #dfe7f1;
     border-radius: 0;
