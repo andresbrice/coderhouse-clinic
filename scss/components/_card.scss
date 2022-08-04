@@ -1,0 +1,59 @@
+/* grilla especialistas */
+.specialist {
+    display: grid;
+    gap: 4em;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+    @media screen and (min-width: 576px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (min-width: 1000px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* fotos de especialistas */
+.specialist-pic {
+    width: $full;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* sombra de cards */
+.card {
+    // background-color: $gray-100  !important;
+    box-shadow: $base-box-shadow;
+    -webkit-box-shadow: $base-box-shadow;
+    -moz-box-shadow: $base-box-shadow;
+    border-radius: $base-border-radius;
+
+    @media screen and (min-width: 1000px) {
+        width: 100%;
+    }
+}
+
+/* card de formularios */
+.card-form {
+    form {
+        max-width: 320px;
+        width: $full - 10%;
+        margin: 0 auto;
+        // background-color: #ffffff;
+        padding: $base-padding * 2.5;
+        border-radius: $base-border-radius;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+
+        .form-control {
+            border: none;
+            border-bottom: 1px solid #dfe7f1;
+            border-radius: $none-boreder-radius;
+            box-shadow: none;
+            outline: none;
+            color: inherit;
+            text-indent: 8px;
+            height: 42px;
+        }
+    }
+}

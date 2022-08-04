@@ -1,0 +1,33 @@
+/*-------------------------HEADER-------------------------*/
+
+.header {
+    height: auto;
+
+    .navbar {
+        color: $white;
+        border-radius: $none-boreder-radius;
+        border: none;
+        background-color: $transparent-black  !important;
+    }
+}
+
+.nav-link {
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: $primary  !important;
+        transition: width 0.25s ease-out;
+    }
+
+    &:hover::before {
+        width: 100%;
+    }
+}

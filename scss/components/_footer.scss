@@ -1,0 +1,16 @@
+/*-------------------------FOOTER-------------------------*/
+
+
+.footer {
+    padding: 50px 0;
+    // color: $gray-200;
+    // background-color: $gray-300;
+
+    .copyright {
+        text-align: center;
+        padding-top: $base-padding * 1.5;
+        opacity: .3;
+        font-size: $base-font-size;
+        margin-bottom: 0
+    }
+}

@@ -1,0 +1,72 @@
+/*-------------------------MAIN-------------------------*/
+
+/* hero */
+.hero {
+    @include flexCenter;
+    min-height: 100vh;
+    max-height: auto;
+    width: $full;
+    text-align: left;
+    padding-top: $base-padding * 6.25 !important;
+    padding-bottom: $base-padding * 6.25 !important;
+
+    /* background */
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(../assets/img/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* hero h1 */
+.title {
+    font-weight: $f-weight-7;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    padding-top: $base-padding;
+    // color: $gray-200;
+}
+
+@keyframes heading {
+    0% {
+        top: -100px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/* hero p */
+.subtitle {
+    font-weight: $f-weight-4;
+    position: relative;
+    margin: .5rem 0 .5rem 0;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text {
+    0% {
+        left: -100px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+/* imagenes hero */
+
+.hero-img {
+    display: none;
+    width: $full/4;
+    max-width: $full;
+    height: auto;
+
+    @media screen and (min-width: 995px) {
+        display: block;
+    }
+}
