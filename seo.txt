@@ -1,0 +1,52 @@
+Index.html: 
+    -En esta vista incluí las etiquetas meta keywords y description:
+        *description: Home page of the official site of the Coderhouse Clinic
+
+        *keywords: HTML, CSS, JS, Bootstrap, SASS, SCSS, responsive, mobile, Andres Briceño, Coderhouse Clinic, Coderhouse, Health, Web Developer, Website, Frontend, home, login, register, awards, contact
+    
+    -Modique el title agregando el nombre de la vista junto con "|" (pipe) y el nombre de la clinica:
+        Home | Coderhouse Clinic
+
+    -Agregue un favicon con el logo de la clinica
+
+Awards.html: 
+    -En esta vista incluí las etiquetas meta keywords y description:
+        *description: View where you can see the awards obtained by the Coderhouse Clinic
+
+        *keywords: HTML, CSS, JS, Bootstrap, SASS, SCSS, Andres Briceño, Coderhouse Clinic, Coderhouse, Health, Web Developer, Website, responsive, mobile, Frontend, awards, table, best service, Consumer Loyalty, Merco Talent
+    
+    -Modique el title agregando el nombre de la vista junto con "|" (pipe) y el nombre de la clinica: Register | Coderhouse Clinic:
+    Awards | Coderhouse Clinic
+
+    -Agregue un favicon con el logo de la clinica
+
+
+Contact.html:
+    -En esta vista incluí las etiquetas meta keywords y description:
+        *description: In this view you can contact the Coderhouse Clinic
+
+        *keywords: HTML, CSS, JS, Bootstrap, SASS, SCSS, Andres Briceño, Coderhouse Clinic, Coderhouse, Health, Web Developer, Website, Responsive, Mobile, Frontend, Contact, contact form, text area, Patient, Branch
+
+    -Modique el title agregando el nombre de la vista junto con "|" (pipe) y el nombre de la clinica: Contact | Coderhouse Clinic
+
+    -Agregue un favicon con el logo de la clinica
+
+Login.html:
+    -En esta vista incluí las etiquetas meta keywords y description:
+        *description: In this view the user can complete the form to validate that the user is registered
+
+        *keywords: HTML, CSS, JS, Bootstrap, SASS, SCSS, Andres Briceño, Coderhouse Clinic, Coderhouse, Health, Web Developer, Website, Frontend, login, sign in, form, responsive, validation
+    
+    -Modique el title agregando el nombre de la vista junto con "|" (pipe) y el nombre de la clinica: Login | Coderhouse Clinic
+
+    -Agregue un favicon con el logo de la clinica
+
+Register.html:
+    -En esta vista incluí las etiquetas meta keywords y description:
+        *description: In this view the user can complete the form to register on our platform
+
+        *keywords: HTML, CSS, JS, Bootstrap, SASS, SCSS, Andres Briceño, Coderhouse Clinic, Coderhouse, Health, Web Developer, Website, responsive, mobile, Frontend, register, form, sign up
+    
+    -Modique el title agregando el nombre de la vista junto con "|" (pipe) y el nombre de la clinica: Register | Coderhouse Clinic 
+
+    -Agregue un favicon con el logo de la clinica
