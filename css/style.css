@@ -576,6 +576,13 @@
     width: 100%; }
 
 /*-------------------------MAIN-------------------------*/
+.background, .hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/img/wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
 /* hero */
 .hero {
   display: flex;
@@ -585,13 +592,7 @@
   min-height: 100vh;
   max-height: auto;
   width: 100%;
-  text-align: left;
-  /* background */
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/img/wallpaper.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
+  text-align: left; }
 
 /* hero h1 */
 .title {

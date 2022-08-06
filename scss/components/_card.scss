@@ -30,9 +30,11 @@
     border-radius: $base-border-radius;
 
     @media screen and (min-width: 1000px) {
-        width: 100%;
+        width: $full;
     }
+
 }
+
 
 /* card de formularios */
 .card-form {

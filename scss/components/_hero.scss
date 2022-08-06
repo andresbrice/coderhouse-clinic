@@ -1,5 +1,13 @@
 /*-------------------------MAIN-------------------------*/
 
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(../assets/img/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* hero */
 .hero {
     @include flexCenter;
@@ -7,13 +15,8 @@
     max-height: auto;
     width: $full;
     text-align: left;
+    @extend .background;
 
-    /* background */
-    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(../assets/img/wallpaper.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 /* hero h1 */
