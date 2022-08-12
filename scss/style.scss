@@ -1,9 +1,10 @@
-// global
-@import "layouts/global";
 //abstracts
 @import "abstracts/variables";
 @import "abstracts/mixins";
 @import "abstracts/colors";
+
+// global
+@import "layouts/global";
 
 //components
 @import "components/navbar";

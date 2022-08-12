@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box !important;
-  /* outline: 1px solid red !important; */ }
-
 .text-primary {
   color: #970f0a !important; }
 
@@ -550,6 +544,11 @@
 .border-white {
   border-color: #ffffff !important; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important; }
+
 /*-------------------------HEADER-------------------------*/
 .header {
   height: auto; }
@@ -586,11 +585,12 @@
 /* hero */
 .hero {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   max-height: auto;
+  padding-top: 3em;
   width: 100%;
   text-align: left; }
 
