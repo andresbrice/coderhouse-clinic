@@ -23,7 +23,6 @@
 
 /* sombra de cards */
 .card {
-    // background-color: $gray-100  !important;
     box-shadow: $base-box-shadow;
     -webkit-box-shadow: $base-box-shadow;
     -moz-box-shadow: $base-box-shadow;
@@ -42,7 +41,6 @@
         max-width: 320px;
         width: $full - 10%;
         margin: 0 auto;
-        // background-color: #ffffff;
         padding: $base-padding * 2.5;
         border-radius: $base-border-radius;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
@@ -58,4 +56,8 @@
             height: 42px;
         }
     }
+}
+
+.greeting::after {
+    content: "😀";
 }

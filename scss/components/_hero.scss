@@ -26,8 +26,7 @@
     position: relative;
     animation: heading;
     animation-duration: 3s;
-    padding-top: $base-padding;
-    // color: $gray-200;
+    padding-top: $base-padding / 2;
 }
 
 @keyframes heading {

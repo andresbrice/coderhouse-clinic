@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .text-primary {
   color: #970f0a !important; }
 
@@ -556,7 +557,7 @@
     color: #ffffff;
     border-radius: 0;
     border: none;
-    background-color: #00000099 !important; }
+    background-color: #000000b2 !important; }
 
 .nav-link {
   display: inline-block;
@@ -600,7 +601,7 @@
   position: relative;
   animation: heading;
   animation-duration: 3s;
-  padding-top: 1em; }
+  padding-top: 0.5em; }
 
 @keyframes heading {
   0% {
@@ -770,6 +771,9 @@
     color: inherit;
     text-indent: 8px;
     height: 42px; }
+
+.greeting::after {
+  content: "😀"; }
 
 /* resize textarea */
 .comment-box {

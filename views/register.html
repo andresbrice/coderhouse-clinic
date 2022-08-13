@@ -29,7 +29,6 @@
     <header class="header">
         <nav
             class="navbar navbar-dark navbar-expand-md d-flex justify-content-between justify-content-xl-between align-items-xl-center navigation-clean-search fixed-top">
-            <!-- fixed-top -->
             <div class="container">
                 <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo1.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -55,13 +54,12 @@
                             </li>
                         </ul>
                         <div class="container-fluid">
-                            <div class="row">
+                            <div class="row mt-3 mt-md-0 ms-md-1">
                                 <a class="btn btn-primary action-button" role="button" href="register.html">Sign
                                     Up</a>
 
                             </div>
                         </div>
-
                     </ul>
                 </div>
             </div>
@@ -69,53 +67,57 @@
     </header>
     <!-- end of header -->
 
+    <!-- main -->
     <main>
-        <div class="container-fluid hero py-5 md:py-1">
-            <div class="row justify-content-center align-items-center align-content-center text-light">
+        <div class="hero">
+            <div class="container">
+                <div class="row justify-content-center align-items-center align-content-center text-light py-5">
+                    <!-- titulo -->
+                    <div class="col-12 col-lg-6 col-xl-5">
+                        <h1 class="title display-2 lead text-center"> <span class="text-primary">
+                                Register</span>
+                        </h1>
+                        <p class="subtitle lead text-center">Complete the form to sign up on our platform.
+                        </p>
+                    </div>
 
-                <div class="col-12 col-lg-6 col-xl-5">
-                    <h1 class="title display-2 lead text-center"> <span class="text-primary">
-                            Register</span>
-                    </h1>
-                    <p class="subtitle lead text-center">Complete the form to sign up on our platform.
-                    </p>
-                </div>
+                    <!-- card -->
+                    <div class="card-form">
+                        <form method="post" action="#" class="text-gray-dark-6 bg-white">
+                            <div class="form-group mb-3">
+                                <input class="form-control" type="text" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input class="form-control" type="text" name="last-name" placeholder="Last name">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input class="form-control" type="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input class="form-control" type="password" name="password" placeholder="Password">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="checkbox" name="terms" id="terms" class="form-check-input checkbox-danger">
+                                <label for="terms" class="form-check-label ms-2">I accept terms and
+                                    conditions</label>
+                            </div>
+                            <div class="form-group mb-3 d-grid">
+                                <button class="btn btn-primary btn-block" type="submit">Register</button>
+                            </div>
 
-                <div class="card-form">
-                    <form method="post" action="#" class="text-gray-dark-6 bg-white">
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="text" name="name" placeholder="Name">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="text" name="last-name" placeholder="Last name">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="email" name="email" placeholder="Email">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="password" name="password" placeholder="Password">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input type="checkbox" name="terms" id="terms" class="form-check-input checkbox-danger">
-                            <label for="terms" class="form-check-label ms-2">I accept terms and
-                                conditions</label>
-                        </div>
-                        <div class="form-group mb-3 d-grid">
-                            <button class="btn btn-primary btn-block" type="submit">Register</button>
-                        </div>
-
-                        <div class="my-3">
-                            <span>Remember that your password must have at
-                                least 1
-                                capital letter and 1
-                                symbol</span>
-                        </div>
-
-                    </form>
+                            <div class="my-3">
+                                <span>Remember that your password must have at
+                                    least 1
+                                    capital letter and 1
+                                    symbol</span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+    <!-- end of main -->
 
     <!-- footer -->
     <div class="d-flex justify-content-center footer bg-gray-dark-9 text-gray-dark-2">
