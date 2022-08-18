@@ -574,6 +574,8 @@
     transition: width 0.25s ease-out; }
   .nav-link:hover::before {
     width: 100%; }
+  .nav-link.active-link::before {
+    width: 100%; }
 
 /*-------------------------MAIN-------------------------*/
 .background, .hero {
